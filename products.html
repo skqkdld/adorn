@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adorn</title>
+
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Italiana&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />    
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/products.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="warp">
+        <header id="header">
+            <div class="header_gnb">
+                <div class="header_gnb_bnr warp_inner">
+                    <div class="gnb_bnr_center">
+                        첫가입 혜택 5만원 이상 구매시 무조건 1만원 할인 🎁 🎉 🛍
+                    </div>
+                    <div class="gnb_bnr_right">
+                        <p>로그인</p>
+                        <p>고객센터</p>
+                    </div>
+                </div>
+            </div>
+            <div class="topfix">
+                <div class="header_warp">
+                    <div class="header_top warp_inner">
+                        <div class="top_search">
+                            <img src="img/search.svg" alt="">
+                        </div>
+                        <div class="logo">
+                            <a href="https://skqkdld.github.io/adorn/">
+                                <p>
+                                    ADORN
+                                </p> 
+                            </a>
+                        </div>
+                        <div class="top_icon_warp">
+                            <div class="top_icon viewed">
+                                <img src="img/recently .png" alt="">
+                                <p>최근본상품</p>
+                                <div class="recently_viewed_box">
+                                    <div class="recently_viewed">
+                                        <div class="prev_btn"></div>
+                                        <div class="next_btn"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="top_icon bag">
+                                <img src="img/local_mall.svg" alt="">
+                                <p>쇼핑백</p>
+                                <div class="count">
+                                    <p>2</p>
+                                </div>
+                            </div>
+                            <div class="top_icon">
+                                <img src="img/person.svg" alt="">
+                                <p>마이페이지</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown_search">
+                        <div class="hide_dropdown_search">
+                            <div class="search_left">
+                                <div class="blank"></div>
+                                <div class="hot_search">
+                                    <div class="hot_search_title">
+                                        인기검색어
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">1<p>_</p></div>
+                                            <div class="hot_search_naem">인테리어조명</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">2<p>_</p></div>
+                                            <div class="hot_search_naem">텀블러</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">3<p>_</p></div>
+                                            <div class="hot_search_naem">스툴</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">4<p>_</p></div>
+                                            <div class="hot_search_naem">린넨커튼</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">5<p>_</p></div>
+                                            <div class="hot_search_naem">테이블조명</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">6<p>_</p></div>
+                                            <div class="hot_search_naem">접시세트</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">7<p>_</p></div>
+                                            <div class="hot_search_naem">인테리어소품</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">8<p>_</p></div>
+                                            <div class="hot_search_naem">커튼</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">9<p>_</p></div>
+                                            <div class="hot_search_naem">여름러그</div>
+                                        </div>
+                                    </div>
+                                    <div class="hot_search_list">
+                                        <div class="hot_search_item">
+                                            <div class="hot_search_number">10<p>_</p></div>
+                                            <div class="hot_search_naem">쿠션</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search_center">
+                                <div class="input_search">
+                                    <input type="text" value="테이블" autofocus>
+                                    <div class="input_search_icon">
+                                        <img src="img/search_icon.svg" alt="">
+                                    </div>
+                                </div>                                    
+                                <div class="recent_searches">
+                                    <div class="recent_searches_title">
+                                        <p>최근검색어</p> 
+                                        <button class="recent_searches_delete">전체삭제</button>
+                                    </div>
+                                    <div class="recent_searches_list">
+                                        <ul>
+                                            <li class="recent_searches_item"><p>쿠션</p><img src="img/close.svg" alt=""></li>
+                                            <li class="recent_searches_item"><p>블랑킷</p><img src="img/close.svg" alt=""></li>
+                                            <li class="recent_searches_item"><p>컵</p><img src="img/close.svg" alt=""></li>
+                                            <li class="recent_searches_item"><p>테이블무선조명</p><img src="img/close.svg" alt=""></li>
+                                            <li class="recent_searches_item"><p>캠핑조명</p><img src="img/close.svg" alt=""></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search_right">
+                                <div class="related_search_terms">
+                                    <div class="related_item_tltie">
+                                        연관제품
+                                    </div>
+                                    <div class="related_item_list">
+                                        <div class="related_item">
+                                            <img src="img/related_item.png" alt="">
+                                            <div class="related_item_text">
+                                                <p class="related_item_brand">NORMANN COPENHAGEN | 노만코펜하겐</p>
+                                                <p class="related_item_name">프레임 35 사이드 테이블</p>
+                                            </div>
+                                        </div>
+                                        <div class="related_item">
+                                            <img src="img/related_item-1.png" alt="">
+                                            <div class="related_item_text">
+                                                <p class="related_item_brand">AUDO COPENHAGEN | 오도 코펜하겐</p>
+                                                <p class="related_item_name">캐리 무선 테이블 조명</p>
+                                            </div>
+                                        </div>
+                                        <div class="related_item">
+                                            <img src="img/related_item-2.png" alt="">
+                                            <div class="related_item_text">
+                                                <p class="related_item_brand">MUUTO | 무토</p>
+                                                <p class="related_item_name">어라운드 테이블 스몰</p>
+                                            </div>
+                                        </div>
+                                        <div class="related_item">
+                                            <img src="img/related_item-3.png" alt="">
+                                            <div class="related_item_text">
+                                                <p class="related_item_brand">BLOOMINGVILLE | 블루밍빌</p>
+                                                <p class="related_item_name">아리아 커피 테이블 로우 37 cm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header_nav">
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            NEW
+                        </a>
+                    </div>
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            키친
+                        </a>
+                        <div class="dropdown_menu">
+                            <div class="warp_inner">
+                                <div class="dropdown_item_image">
+                                    <img src="img/nav.png" alt="">
+                                </div>
+                                <div class="dropdown_sub_meun">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">플레이트</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">플레이트 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">그릇</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">접시</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">볼</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">트레이</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">세트상품</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">컵</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">컵 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">유리컵</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">머그컵</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">티팟/티컵</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">맥주잔</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">에스프레소잔</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">조리도구 / 냄비</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">조리도구/냄비 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">칼/토마</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">조리도구</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">냄비/프라이팬</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">커트러리</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">커트러리 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">커트러리</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">어린이 식기</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">주방잡화</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">수납/정리</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">양념통/용기</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">식탁보/패브릭</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">테이블매트</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">주방악세서리</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            홈데코
+                        </a>
+                        <div class="dropdown_menu">
+                            <div class="warp_inner">
+                                <div class="dropdown_item_image">
+                                    <img src="img/decor.jpeg" alt="">
+                                </div>
+                                <div class="dropdown_sub_meun">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">포스터</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">포스터 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">아트포스터</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">패브릭포스터</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">액자</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">러그</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">러그 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">러그</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">매트</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">침구 / 쿠션</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">침구/쿠션 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">침구</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">베개</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">담요</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">방석</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">쿠션</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">수건 / 타올</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">수건/타올 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">수건</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">타올</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">커튼</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">커튼 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">커튼</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">블라인드</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">욕실용품</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">욕실용품 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">욕실용품</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">욕실수납</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            가구
+                        </a>
+                        <div class="dropdown_menu">
+                            <div class="warp_inner">
+                                <div class="dropdown_item_image">
+                                    <img src="img/furniture.jpeg" alt="">
+                                </div>
+                                <div class="dropdown_sub_meun">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">테이블</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">테이블 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">식탁</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">식탁/의자세트</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">사이드테이블</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">소파테이블</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">원목테이블</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">대리석테이블</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">의자</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">의자 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">식탁의자</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">스툴</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">원목의자</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">라탄의자</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">플라스틱의자</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">소파</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">소파 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">가죽소파</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">패브릭소파</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">모듈소파</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">소파베드</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">1인용</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">2~3인용</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">4인용 이상</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">침대</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">침대 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">침대</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">매트리스/토퍼</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">수납장</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">수납장 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">거실장</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">수납장</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">서랍장</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">장식장</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">행거/선반</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">행거/선반 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">행거</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">옷장</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">선반</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">파티션</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">책상</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">책상 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">책상/선반세트</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">매거진랙</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">야외가구</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">야외가구 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">야외테이블</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">야외의자</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">파라솔/매트</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            조명
+                        </a>
+                        <div class="dropdown_menu">
+                            <div class="warp_inner">
+                                <div class="dropdown_item_image">
+                                    <img src="img/light.jpeg" alt="">
+                                </div>
+                                <div class="dropdown_sub_meun">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">스텐드 & 테이블조명</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">테이블조명 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">인테리어테이블조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">무드등</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">무선조명</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">펜던트조명</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">펜던트조명 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">인테리어펜던트조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">침실조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">식탁조명</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">벽조명</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">벽조명 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">실내벽등</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">야외벽등</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">갤러리벽등</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">천장조명</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">천장조명 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">LED등</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">레일등</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">매입등</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">라인조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">현관조명</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">어린이조명</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">어린이공간조명 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">펜던트조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">테이블조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">플로어램프</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">벽조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">천장조명</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">인테리어조명</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">플로어조명</a>
+                                            <span></span>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">전등갓</a>
+                                            <span></span>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">야외조명</a>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            라이프
+                        </a>
+                        <div class="dropdown_menu">
+                            <div class="warp_inner">
+                                <div class="dropdown_item_image">
+                                    <img src="img/vase.jpeg" alt="">
+                                </div>
+                                <div class="dropdown_sub_meun">
+                                    <ul class="sub_menu_list">
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">향기테라피</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">향기테라피 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">캔들</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">디퓨저</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">인센스</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">스프레이</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">가드닝</a>
+                                            <span></span>
+                                            <ul class="dropdown_list">
+                                                <li class="dropdown_item">
+                                                    <a href="">가드닝 전체</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">꽃병</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">화분</a>
+                                                </li>
+                                                <li class="dropdown_item">
+                                                    <a href="">가드닝도구</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="sub_menu">
+                                            <a class="bold_menu" href="">캠핑</a>
+                                            <span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_menu">
+                        <a href="products.html">
+                            SALE
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="fixd_btn">
+                <div class="fix_consulting">
+                    <div class="consulting_btn">
+                        <div class="consulting_icon">
+                            <img src="img/consulting_icon.svg"  alt="">
+                        </div>
+                    </div>
+                    <div class="hidden_consulting">
+                        <div class="message_title">
+                            ADORN 실시간 상담
+                        </div>
+                        <div class="message_window">
+                            <div class="message_left">
+                                <div class="consultant">
+                                    <p>
+                                        안녕하세요 고객님 <br>
+                                        문의남기시면 확인하는데로 도와드릴게요 <br>
+                                        무엇이든 물어보세요
+                                    </p>
+                                    <br>
+                                    <p>
+                                        상담가능시간 평일 9시 ~ 17시 (주말/공휴일 휴무)  
+                                    </p>
+                                </div>
+                                <div class="timestamp">10:00 AM</div>
+                            </div>
+                            <div class="message_right">
+                                <div class="timestamp">10:05 AM</div>
+                                <div class="user">
+                                    <p>
+                                        블록테이블 화이트색상은 언제 재입고 되나요
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="message_left">
+                                <div class="consultant">
+                                    <b>...
+                                    </b>
+                                </div>
+                                <div class="timestamp">10:10 AM</div>
+                            </div>
+                            <div class="input_box">
+                                <input type="text" autofocus>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fix_up">
+                    <a href="#header">
+                        <img src="img/up_icon.svg" title="위로가기" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="warp_inner">
+                <div class="new_products_item">
+                    <img src="img/newproduct.png" alt="">
+                    <div class="product_description">
+                        <p class="item_brand">Decozio</p>
+                        <p class="item_name">플라워팟 VP1 펜던트 조명</p>
+                        <p class="item_price">234,000</p>
+                    </div>
+                </div>
+            </div>
+            <section class="warp_inner">
+                <aside>
+                    <div class="sticky">                        
+                        <title>
+                            조명
+                        </title>
+                        <div class="category_list">
+                            <h4>전체<span></span></h4>
+                            <div class="category">
+                                <p>스텐드 & 테이블 조명</p>
+                                <p>59</p>
+                            </div>
+                            <div class="category">
+                                <p>펜던트 조명</p>
+                                <p>46</p>
+                            </div>
+                            <div class="category">
+                                <p>벽조명</p>
+                                <p>28</p>
+                            </div>
+                            <div class="category">
+                                <p>천장조명</p>
+                                <p>33</p>
+                            </div>
+                            <div class="category">
+                                <p>어린이 조명</p>
+                                <p>17</p>
+                            </div>
+                            <div class="category">
+                                <p>플로어조명</p>
+                                <p>24</p>
+                            </div>
+                            <div class="category">
+                                <p>전등갓</p>
+                                <p>12</p>
+                            </div>
+                            <div class="category">
+                                <p>야외조명</p>
+                                <p>9</p>
+                            </div>
+                        </div>
+                        <details>
+                            <summary class="color_category_title">
+                                <p>색상</p>
+                                <img src="img/expand_less.svg" alt="expand">
+                            </summary>
+                            <div  class="color_category_list">
+                                <div class="category">
+                                    <p><img src="img/color11.png" alt="White">White</p>
+                                    <p>42</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color10.png" alt="Black">Black</p>
+                                    <p>40</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color09.png" alt="Beige">Beige</p>
+                                    <p>23</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color07.png" alt="Red">Red</p>
+                                    <p>12</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color06.png" alt="Orange">Orange</p>
+                                    <p>6</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color05.png" alt="Yellow">Yellow</p>
+                                    <p>9</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color04.png" alt="Green">Green</p>
+                                    <p>6</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color03.png" alt="Blue">Blue</p>
+                                    <p>13</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color08.png" alt="silver">silver</p>
+                                    <p>28</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color02.png" alt="Gold-coloured">Gold-coloured</p>
+                                    <p>9</p>
+                                </div>
+                                <div class="category">
+                                    <p><img src="img/color01.png" alt="Multi">Multi</p>
+                                    <p>11</p>
+                                </div>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="color_category_title">
+                                <p>브랜드</p>
+                                <img src="img/expand_less.svg" alt="expand">
+                            </summary>
+                            <div  class="color_category_list">
+                                <div class="category">
+                                    <p class="wide_p">&Tradition | 앤트레디션</p>
+                                    <p>42</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">A2 | 에이투</p>
+                                    <p>40</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Alessi | 알레시</p>
+                                    <p>23</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Bergs Potter | 베르그 포터</p>
+                                    <p>12</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Dala Industrier | 달라 인더스트리어</p>
+                                    <p>6</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Edblad | 에드블라드</p>
+                                    <p>9</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Fine Little Day | 파인리틀데이</p>
+                                    <p>6</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Gense | 겐세</p>
+                                    <p>13</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Hein Studio | 하인 스튜디오</p>
+                                    <p>28</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Holmegaard | 홀메가르드</p>
+                                    <p>9</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Iittala | 이딸라</p>
+                                    <p>11</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">KLONG | 클롱</p>
+                                    <p>6</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Kosta Boda | 코스타보다</p>
+                                    <p>6</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">Lene Bjerre | 르네 비에르</p>
+                                    <p>31</p>
+                                </div>
+                                <div class="category">
+                                    <p class="wide_p">MUUBS | 뭅스</p>
+                                    <p>19</p>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                </aside>
+                <div class="products_list">
+                    <div class="filter">
+                        <select name="select" id="filterselect">
+                            <option value="popularity">인기순</option>
+                            <option value="new">신상품순</option>
+                            <option value="lowPrice">낮은가격순</option>
+                            <option value="highPrice">높은가격순</option>
+                        </select>
+                    </div>
+                    <div class="item_type_list">
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product01.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">&TRADITION | 앤트레디션</div>
+                                    <div class="item_name">세타고 JH27 테이블 조명, nude-forest</div>
+                                    <div class="item_price">123,400</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product02.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">BELID | 벨리드</div>
+                                    <div class="item_name">이클립스 펜던트 조명 43cm</div>
+                                    <div class="item_price">342,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product03.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">AUDO COPENHAGEN | 오도 코펜하겐</div>
+                                    <div class="item_name">캐리 무선 테이블 조명</div>
+                                    <div class="item_price">198,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product04.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">SCANDI LIVING | 스칸디리빙</div>
+                                    <div class="item_name">페어 펜던트 조명</div>
+                                    <div class="item_price">298,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product05.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">OYOY | 오이오이</div>
+                                    <div class="item_name">카사 벽 조명</div>
+                                    <div class="item_price">98,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product06.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">NORMANN COPENHAGEN | 노만코펜하겐</div>
+                                    <div class="item_name">포르타 테이블 조명</div>
+                                    <div class="item_price">234,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product07.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">BYON | 바이온</div>
+                                    <div class="item_name">코모 무선 테이블 조명 SC53</div>
+                                    <div class="item_price">121,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product08.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">&TRADITION | 앤트레디션</div>
+                                    <div class="item_name">캐럿 MF1 포터블 테이블 조명</div>
+                                    <div class="item_price">89,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product09.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">GUBI | 구비</div>
+                                    <div class="item_name">포마카미 펜던트 조명</div>
+                                    <div class="item_price">503,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product10.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">MUUTO | 무토</div>
+                                    <div class="item_name">플루이드 펜던트 조명</div>
+                                    <div class="item_price">430,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product11.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">HERSTAL | 허스탈</div>
+                                    <div class="item_name">비엔다 플로어 조명</div>
+                                    <div class="item_price">561,000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item_cont">
+                                <div class="item_img">
+                                    <img src="img/product12.png" alt="">
+                                    <button>
+                                        <img src="img/favorite.svg" alt="">
+                                    </button>
+                                </div>
+                                <div class="item_info">
+                                    <div class="item_brand">UMAGE | 우메이</div>
+                                    <div class="item_name">아스테리아 테이블 조명</div>
+                                    <div class="item_price">343,000</div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="page">
+                        <div class="pagination">
+                            <div class="pagination_num"><a href="" class="active num">1</a></div>
+                            <div class="pagination_num"><a href="" class="num">2</a></div>
+                            <div class="pagination_num"><a href="" class="num">3</a></div>
+                            <div class="pagination_num"><a href="" class="num">4</a></div>
+                            <div class="pagination_num"><a href="" class="num">5</a></div>
+                            <div class="pagination_num"><a href="" class="num">6</a></div>
+                            <div class="pagination_num"><a href="" class="num">7</a></div>
+                            <div class="pagination_num"><a href="" class="num">8</a></div>
+                            <div class="pagination_num"><a href="" class="num">9</a></div>
+                            <div class="pagination_num"><a href="" class="num">10</a></div>
+                            <div class="pagination_num"><a href="" class="arrow"><img src="img/arrow_forward.svg" alt=""></a></div>
+                            <div class="pagination_num"><a href="" class="arrow"><img src="img/double_arrow.svg" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <article>
+                <div class="title_small warp_inner">
+                    Review
+                </div>
+                <div class="review_list">
+                    <a href=""><img src="img/review01.png" alt=""></a>
+                    <a href=""><img src="img/review02.png" alt=""></a>
+                    <a href=""><img src="img/review03.png" alt=""></a>
+                    <a href=""><img src="img/review04.png" alt=""></a>
+                    <a href=""><img src="img/review05.png" alt=""></a>
+                    <a href=""><img src="img/review06.png" alt=""></a>
+                    <a href=""><img src="img/review07.png" alt=""></a>
+                    <a href=""><img src="img/review08.png" alt=""></a>
+                    <a href=""><img src="img/review09.png" alt=""></a>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div class="footer_top">
+                <div class="warp_inner">
+                    <div class="footer_top_lift">
+                        <h2>(유료)000-000-0000</h2>
+                        <p>평일 09:00~18:00</p>
+                    </div>
+                    <div class="footer_top_right">
+                        <p>공지사항</p>
+                        <p>카톡상담</p>
+                        <p>ARS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="warp_inner">
+                    <div class="footer_links">
+                        <p>서비스이용약관</p>
+                        <p>개인정보처리방침</p>
+                        <p>고객센터</p>
+                    </div>
+                    <address>
+                            <div class="footer_info">
+                                <p>대표이사  김잔디</p>
+                                <p>부산시 수영구 망미번영로</p>
+                            </div>
+                            <div class="footer_info">
+                                <p>사업자번호  000-00-0000</p>
+                                <p>통신판매업신고번호  제 2000-부산수영-0000호</p>
+                                <a href="">사업자 정보 확인</a>
+                            </div>
+                            <div class="footer_info">
+                                <p>개인정보보호책임자  김잔디</p>
+                                <p>고객상담
+                                    <a href="">000-000-0000</a>
+                                </p>
+                                <p>이메일  adorn@adorn.com</p>
+                                <p>호스팅제공자  (주)adorn</p>
+                            </div>
+                            <div class="footer_info">
+                                <p>고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 이니시스 구매안전 서비스(에스크로)를 이용하실 수 있습니다.</p>
+                                <a>서비스 가입사실 확인</a>
+                            </div>
+                            <div class="footer_info">
+                                <p>Copyright ⓒ 2023 adorn. All Rights Reserved.</p>
+                            </div>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
