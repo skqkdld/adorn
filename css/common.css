@@ -17,6 +17,10 @@ body {
     min-width: 1416px;
 }
 
+button {
+    font-family: 'SUIT', sans-serif;
+}
+
 a {
     text-decoration: none;
     color: #000;

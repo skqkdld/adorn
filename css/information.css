@@ -1,4 +1,9 @@
-.detail_container{
+section {
+    display: flex;
+    gap: 48px;
+}
+
+.detail_container {
     width: 800px;
 }
 
@@ -11,7 +16,7 @@
     margin-bottom: 16px;
 }
 
-.img_top img{
+.img_top img {
     width: 100%;
 }
 
@@ -53,6 +58,359 @@
     font-weight: 300;
 }
 
-.detail_info_text p:first-child  {
+.detail_info_text p:first-child {
     color: #999;
+}
+
+.products_list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 158px;
+}
+
+.product_reviews {
+    padding: 40px 0;
+}
+
+.reviews_img_list {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+}
+
+.reviews_img_list img {
+    width: 154px;
+    height: 154px;
+    object-fit: cover;
+}
+
+.more_btn {
+    position: relative;
+}
+
+.more_btn button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 154px;
+    height: 154px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.reviews_tab_set {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #000;
+}
+
+.reviews_tab_set p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reviews_tab button {
+    border: none;
+    background: inherit;
+    font-size: 13px;
+    font-weight: 300;
+    color: #999;
+}
+
+.reviews_tab_set span {
+    font-size: 12px;
+}
+
+.reviews_tab .active {
+    color: #000;
+    font-weight: 500;
+}
+
+.list {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+}
+
+.user_name {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 8px;
+    align-items: center;
+}
+
+.best_label {
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 8px;
+}
+
+.reviews {
+    width: 80%;
+    color: #404040;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.post_date {
+    font-size: 12px;
+    color: #999;
+}
+
+.reviews .post_title {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.review_bottom {
+    width: 70px;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    background: inherit;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 5px 12px;
+}
+
+.review_bottom img {
+    width: 20px;
+}
+
+.photo_review {
+    padding: 16px 0;
+}
+
+.photo_review img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 고정 */
+
+aside {
+    width: 100%;
+}
+
+.category_breadcrumb {
+    display: flex;
+    gap: 6px;
+    font-size: 14px;
+    color: #999;
+}
+
+.current_page {
+    color: #000;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: end;
+    gap: 4px;
+}
+
+.icon_box img {
+    width: 30px;
+    height: 30px;
+}
+
+.item__info {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.item__info_brand {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.item__info_name {
+    font-size: 32px;
+    font-weight: 200;
+    margin-bottom: 24px;
+}
+
+.item__info_price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+.item__info_color {
+    padding: 20px 0 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.item__info_title {
+    font-weight: 700;
+}
+
+.selection_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #404040;
+    padding-top: 20px;
+}
+
+.selection_button_set {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.selection_button_set img {
+    width: 24px;
+    height: 24px;
+}
+
+.select {
+    border: 1px solid #6AC041;
+    width: 28px;
+    height: 28px;
+    position: relative;
+}
+
+.select img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item__info_amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.form_amount {
+    width: 157px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.form_amount input {
+    width: 50px;
+    text-align: center;
+    border:  none;
+    font-size: 20px;
+    font-family: 'SUIT', sans-serif;
+}
+
+.form_amount button {
+    border: none;
+    background: inherit;
+    font-size: 26px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.item__info_sum {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sum {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: end;
+}
+
+.sum p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item__info_button {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    margin-top: 16px;
+}
+
+.item__info_button button {
+    border: 1px solid #000;
+    font-size: 20px;
+    flex: 1;
+    padding: 24px;
+}
+
+.shopping_basket {
+    background: #fff;
+}
+
+.buy_now {
+    background: #000;
+    color: #fff;
+}
+
+.explanation {
+    margin-top: 32px;
+    background: #F6F4EE;
+    padding: 24px;
+}
+
+.explanation h4 {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.explanation p {
+    line-height: 28px;
+    display: flex;
+    gap: 4px;
+}
+
+
+/* 비슷한 제품 */
+
+.details_related {
+    margin-top: 160px;
+}
+
+.products_list_title {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.products_list_btn {
+    display: flex;
+    gap: 32px;
+}
+
+.products_list_btn img{
+    width: 32px;
+    height: 32px;
 }
